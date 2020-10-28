@@ -1,6 +1,10 @@
-# CRM- Model: Dog Grooming Buisness database interaction template.
-Using Express.js, mySQL, & Node.js. 
+# CRM- Model: Dog Grooming Business. 
+Using Express.js, mySQL, & Node.js.
+(DB-InteractionTemplate).
 
+
+
+Launching Server and navigating to the correct address: **localhost:8000**.
 **Step 1:**
 Start Node.js.
 **Step 2:**

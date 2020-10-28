@@ -4,7 +4,7 @@ Using Express.js, mySQL, & Node.js.
 
 
 
-                                                Launching Server and navigating to the correct address: **localhost:8000**.
+                                               Launching Server and navigating to the correct address: **localhost:8000**.
 - **Step 1:**
 Start Node.js.
 

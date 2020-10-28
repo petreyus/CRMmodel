@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Dogroomer Customers</h2>
+<form method='POST' action='/pop' >
+
+      
+        <!-- <input type="button" value="Generate a table." onclick="post"> -->
+        <label for="fname"><b>Customer first name</b></label>
+        <input type="text" placeholder="Enter name" name="fname" required>
+
+        <label for="lname"><b>Customer last name</b></label>
+        <input type="text" placeholder="Enter last name" name="lname" required>
+
+        <label for="email"><b>email</b></label>
+        <input type="text" placeholder="email" name="email" required>
+        <button type="submit" class="registerbtn" onclick= "generate_table()">Register</button>
+        
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
+
+
+<script>
+
+
+
+function generate_table() {
+    event.preventDefault(); 
+
+   
+ console.log(lname);
+    
+    
+    
+    // get the reference for the body
+        var body = document.getElementsByTagName("body")[0];
+       
+        // creates a <table> element and a <tbody> element
+        var tbl = document.createElement("table");
+        var tblBody = document.createElement("tbody");
+      
+        
+
+
+
+        // creating all cells
+        for (var i = 0; i < 2; i++) {
+          // creates a table row
+          var row = document.createElement("tr");
+      
+          for (var j = 0; j < 2; j++) {
+            // Create a <td> element and a text node, make the text
+            // node the contents of the <td>, and put the <td> at
+            // the end of the table row
+            var cell = document.createElement("td");
+            var cellText = document.createTextNode("cell in row "+i+", column "+j);
+            cell.appendChild(cellText);
+            row.appendChild(cell);
+          }
+      
+          // add the row to the end of the table body
+          tblBody.appendChild(row);
+        }
+      
+        // put the <tbody> in the <table>
+        tbl.appendChild(tblBody);
+        // appends <table> into <body>
+        body.appendChild(tbl);
+        // sets the border attribute of tbl to 2;
+        tbl.setAttribute("border", "2");
+      }
+
+
+
+// </script>

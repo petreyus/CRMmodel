@@ -5,17 +5,21 @@ Using Express.js, mySQL, & Node.js.
 
 
 Launching Server and navigating to the correct address: **localhost:8000**.
-**Step 1:**
+- **Step 1:**
 Start Node.js.
-**Step 2:**
+
+- **Step 2:**
 Navigate to the 'public' folder that contains the 'server.js' file.
-**Step 3:**
+
+- **Step 3:**
 `node server.js`
 or
 `nodemon server.js`
-**Step 4:**
+
+- **Step 4:**
 Should see a log in the command prompt.
-**Final Step:**
+
+- **Final Step:**
 Open web browser navigate to:**localhost:8000**.
 Once logged in you can view a members only page that allows users to alter things in a separate database.
 

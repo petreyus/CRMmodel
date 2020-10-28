@@ -1,4 +1,4 @@
-# Customer Relationship Management- Model
+# CRM- Model: Dog Grooming Buisness database interaction template.
 Using Express.js, mySQL, & Node.js. 
 
 **Step 1:**

@@ -4,7 +4,7 @@ Using Express.js, mySQL, & Node.js.
 
 
 
-                                               Launching Server and navigating to the correct address: **localhost:8000**.
+								       Getting started:
 - **Step 1:**
 Start Node.js.
 
@@ -29,6 +29,8 @@ Once logged in you can view a members only page that allows users to alter thing
 - [] General refactoring.
 - [] error handling.
 - [] UI improvement.
+
+Default server adress is: **localhost:8000**.
 
 *NOTE: The SQL sample DB information:*
 

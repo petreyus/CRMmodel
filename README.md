@@ -20,7 +20,7 @@ or
 Should see a log in the command prompt.
 
 - **Final Step:**
-Open web browser navigate to:**localhost:8000**.
+Open web browser navigate to:**localhost:4000**.
 Once logged in you can view a members only page that allows users to alter things in a separate database.
 
 *Note: I am using my own SQL DB if you would like the DB functionality create 2 databases named: 
@@ -29,8 +29,6 @@ Once logged in you can view a members only page that allows users to alter thing
 - [] General refactoring.
 - [] error handling.
 - [] UI improvement.
-
-Default server adress is: **localhost:8000**.
 
 *NOTE: The SQL sample DB information:*
 

@@ -23,9 +23,22 @@ Should see a log in the command prompt.
 Open web browser navigate to:**localhost:8000**.
 Once logged in you can view a members only page that allows users to alter things in a separate database.
 
+*Note: I am using my own SQL DB if you would like the DB functionality create 2 databases named: 
+
 **To Do:**
 - [] General refactoring
 - [] error handling
 - [] UI improvement
 
-*NOTE: the passwords as stored as plaintext. Store hashed values and sanitize all user inputs, if you are reusing any of this code.*
+*NOTE: The SQL sample DB information:*
+
+DB:1:Login/Register:
+`host     : 'localhost',
+	user     : 'root',
+	password : 'admin',
+	database : 'nodelogin'`
+
+DB:2:Customers CRUD
+  All same but:
+   `database : 'customers'`
+  

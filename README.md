@@ -12,6 +12,7 @@ Start Node.js.
 Navigate to the 'public' folder that contains the 'server.js' file.
 
 - **Step 3:**
+Enter the following command:
 `node server.js`
 or
 `nodemon server.js`

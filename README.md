@@ -1,6 +1,6 @@
 # CRM- Model: Dog Grooming Business. 
 Using Express.js, mySQL, & Node.js.
-(DB-InteractionTemplate).
+(DB Interaction: (CRU*D*)).
 
 
 
@@ -40,7 +40,7 @@ DB1:Login/Register:
 	password : 'admin',
 	database : 'nodelogin'`.
 
-DB2: Interactive (CRU*D*):
+DB2: Customer Interactive:
   All same, but with this change->:
    `database : 'customers'`.
   

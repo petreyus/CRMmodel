@@ -26,19 +26,19 @@ Once logged in you can view a members only page that allows users to alter thing
 *Note: I am using my own SQL DB if you would like the DB functionality create 2 databases named: 
 
 **To Do:**
-- [] General refactoring
-- [] error handling
-- [] UI improvement
+- [] General refactoring.
+- [] error handling.
+- [] UI improvement.
 
 *NOTE: The SQL sample DB information:*
 
-DB:1:Login/Register:
+DB: 1:Login/Register:
 `host     : 'localhost',
 	user     : 'root',
 	password : 'admin',
-	database : 'nodelogin'`
+	database : 'nodelogin'`.
 
-DB:2:Customers CRUD
+DB: 2:Customers CRUD
   All same but:
-   `database : 'customers'`
+   `database : 'customers'`.
   

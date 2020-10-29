@@ -32,13 +32,13 @@ Once logged in you can view a members only page that allows users to alter thing
 
 *NOTE: The SQL sample DB information:*
 
-DB: 1:Login/Register:
+DB1:Login/Register:
 `host     : 'localhost',
 	user     : 'root',
 	password : 'admin',
 	database : 'nodelogin'`.
 
-DB: 2:Customers CRUD
+DB2: Interactive (CRU*D*):
   All same but:
    `database : 'customers'`.
   

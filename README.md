@@ -29,7 +29,7 @@ Once logged in you can view a members only page that allows users to alter thing
 - [] error handling.
 - [] UI improvement.
 
-*Note: I am using my own SQL DB if you would like the DB functionality create 2 databases named: 
+*Note: I am using my own SQL DB if you would like the DB functionality create 2 databases named:* 
 
 DB1: Identities(Username/PW) database:
 `host     : 'localhost',

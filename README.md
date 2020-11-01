@@ -4,7 +4,7 @@ Using Express.js, mySQL, & Node.js.
 
 
 
-								   Getting started:
+								 Getting started:
 - **Step 1:**
 Start Node.js.
 
@@ -24,22 +24,20 @@ Should see a log in the command prompt.
 Open web browser navigate to: **localhost:4000**.
 Once logged in you can view a members only page that allows users to alter things in a separate database.
 
-*Note: I am using my own SQL DB if you would like the DB functionality create 2 databases named: 
-
 **To Do:**
 - [] General refactoring.
 - [] error handling.
 - [] UI improvement.
 
-*NOTE: The SQL sample DB information:*
+*Note: I am using my own SQL DB if you would like the DB functionality create 2 databases named: 
 
-DB1:Login/Register:
+DB1: Identities(Username/PW) database:
 `host     : 'localhost',
 	user     : 'root',
 	password : 'admin',
 	database : 'nodelogin'`.
 
-DB2: Customer Interactive:
+DB2: Customer Interaction database:
   All same, but with this change->:
    `database : 'customers'`.
   

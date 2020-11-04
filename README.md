@@ -23,7 +23,7 @@ Should see a log in the command prompt.
 
 - **Final Step:**
 Open web browser navigate to: **localhost:4000**.
-Once logged in you can view a members only page that allows users to alter things in a separate database.
+Once logged in, you can view a members only page that allows users to interact with a separate database.
 
 **To Do:**
 - [] General refactoring.

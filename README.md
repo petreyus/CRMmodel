@@ -4,7 +4,7 @@ Using Express.js, mySQL, & Node.js.
 
 
 
-								 Getting started:
+						 Getting started:
 - **Step 1:**
 Start Node.js.
 

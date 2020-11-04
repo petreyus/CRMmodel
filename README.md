@@ -16,6 +16,7 @@ Enter the following command:
 `node server.js`
 or
 `nodemon server.js`
+(If you have it installed)
 
 - **Step 4:**
 Should see a log in the command prompt.

@@ -35,4 +35,16 @@ window.onload = function(){
 			getElm[i].lastChild.style.backgroundImage='url(images/mobile/mobile-collapse.png)';
 		}
 	};
+
+
+
+	
+	// footer date function
+	  var d = new Date();
+	  var n = d.getFullYear();
+	  document.getElementById("footer").innerHTML = ("Petreyus &amp; Craine All rights reserved " + n);
+	  
+
+
+
 };

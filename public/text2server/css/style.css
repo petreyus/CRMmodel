@@ -1,7 +1,7 @@
 
 body {
-	background: #077054;
-	color: #315f52;
+	background: #3b2e2e;
+	color: #b42603;
 	font-family: 'latoregular';
 	font-size: 14px;
 	margin: 0;
@@ -38,10 +38,10 @@ p {
 	margin: 0;
 }
 p a {
-	color: #315f52;
+	color: #b42603;
 }
 p a:hover {
-	color: #451374;
+	color: #b42603;
 }
 #header {
 	margin: 0 auto;
@@ -56,11 +56,11 @@ p a:hover {
 	text-align: center;
 }
 #header h1 a {
-	color: #99fa99;
+	color: #b42603;
 	text-decoration: none;
 }
 #header h1 a span {
-	color: #b6d8cf;
+	color: #b42603;
 	display: block;
 	font-family: 'nixie_oneregular';
 	font-size: 26px;
@@ -78,7 +78,7 @@ p a:hover {
 	position: relative;
 }
 #header ul#navigation li a {
-	color: #b6d8cf;
+	color: #b42603;
 	font-size: 18px;
 	padding: 0 46px;
 	text-align: center;
@@ -90,7 +90,7 @@ p a:hover {
 	color: #d3a3ff;
 }
 #header ul#navigation li.current a {
-	color: #99fa99;
+	color: #b42603;
 }
 #header ul#navigation li ul {
 	display: none;
@@ -105,7 +105,7 @@ p a:hover {
 	display: block;
 }
 #header ul#navigation li ul li {
-	background: #077054;
+	background: #b42603;
 	display: block;
 	height: 46px;
 	line-height: 46px;
@@ -125,7 +125,7 @@ p a:hover {
 	padding: 45px 40px 46px;
 }
 #body > h2 {
-	color: #21a51e;
+	color: #1f7c1e;
 	font-family: 'nixie_oneregular';
 	font-size: 35px;
 	font-weight: normal;
@@ -146,7 +146,7 @@ p a:hover {
 }
 #body div#tagline h1 {
 	background: url(../images/bg-separator.png) no-repeat center bottom;
-	color: #21a51e;
+	color: #1f7c1e;
 	font-family: 'nixie_oneregular';
 	font-size: 100px;
 	font-weight: normal;
@@ -157,7 +157,7 @@ p a:hover {
 	text-transform: uppercase;
 }
 #body div#tagline p {
-	color: #21a51e;
+	color:  #1f7c1e;
 	font-family: 'nixie_oneregular';
 	font-size: 100px;
 	line-height: 100px;
@@ -264,7 +264,7 @@ p a:hover {
 	width: 448px;
 }
 #body form input#send {
-	background: #077054;
+	background: #b42603;
 	border: none;
 	border-radius: 5px;
 	color: #99fa99;

@@ -19,7 +19,7 @@ or
 (If you have it installed).
 
 - **Step 4:**
-Should see a log in the command prompt.
+Should see a 'server running' in the command prompt.
 
 - **Final Step:**
 Open web browser navigate to: **HTTP://localhost:4000**.

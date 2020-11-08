@@ -27,7 +27,7 @@ Once logged in, you can view a members only page that allows users to interact w
 *Note: it is a **security flaw** to mix identities DB with any database open to users.*
 
 **To Do:**
-- [ ] error handling.
+- [ ] Error handling.
 - [ ] UI improvement.
 
 *Note: I am using my own SQL DB. If you have different DB-names, replace these 2 databases:* 

@@ -22,7 +22,7 @@ or
 Should see a 'server running' in the command prompt.
 
 - **Final Step:**
-Open web browser navigate to: **HTTP://localhost:4000**.
+Open web browser navigate to: **HTTP://localhost:1337**.
 Once logged in, you can view a members only page that allows users to interact with a separate database.
 *Note: it is a **security flaw** to mix identities DB with any database open to users.*
 

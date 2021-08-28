@@ -66,7 +66,7 @@ app.post('/regs', function (req, res) {
 app.post('/login', function (req, res) {
     let username1 = (req.body.uname);
     let password1 = (req.body.psw);
-    // This code query below is vunerable to SQL inejction.
+    // This code query below is vunerable to SQL injection purposeful for testing pen skills.
     connection.query("SELECT * FROM accounts WHERE username = ? AND password = ?", [username1, password1],
         function (err, results, field) {
 
